@@ -1,0 +1,29 @@
+{
+  "name": "tz-btn",
+  "version": "1.0.0",
+  "description": "Tezos Button for test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "tezos",
+    "taquito",
+    "beacon",
+    "dapp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@taquito/beacon-wallet": "^6.3.1-beta.0",
+    "@taquito/taquito": "^6.3.1-beta.0",
+    "@taquito/tezbridge-signer": "^8.0.6-beta.0",
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "bignumber.js": "^9.0.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
